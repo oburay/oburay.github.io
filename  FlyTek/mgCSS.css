@@ -1,0 +1,121 @@
+body
+{
+	background-color: #3A3A3A;
+	font-family: segoe ui light;
+	width: 100%;
+}
+
+#mgbuttons input[type=button]
+{
+	position: relative;
+	top:45px;
+	font-size: 1em;
+	border-style: none;
+	display: block;
+	width: 90%;
+	min-width: 400px;
+	height: 50px;
+	background-color: white;
+	box-shadow: 0px 0px 2px black;
+	border-radius: 10px;
+	margin: 10px 10px 10px 15px;
+}
+
+#mgbuttons
+{
+
+	position: relative;
+	width: 50%;
+	border-radius: 15px;
+	display: block;
+	background-color: transparent;
+	margin:auto auto auto auto;
+}
+.back
+{
+	position: relative;
+  float: left;
+  margin:10px auto 0 10px;
+  top: -5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.back:hover,
+.back:focus {
+  color: black;
+  cursor: pointer;
+}
+
+.close {
+	position: relative;
+	float: right;
+	margin-top:5px;
+	margin-right: 10px;
+	color: #000;
+	
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus,#mbuttons span.close:hover {
+	color: red;
+	cursor: pointer;
+  }
+
+.close:hover,
+.close:focus,#mbuttons span.close:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#cont02
+{
+	position: relative;
+	top: -5px;
+	height: 70px;
+	background-color: red;
+	color: white;
+	font-family: segoe ui;
+}
+
+#cont02 h2
+{
+	position: relative;
+	top: -25px;
+}
+
+input[value=yes]
+{
+	margin-left: -10px;
+}
+input[value=no]
+{
+	margin-left: 40px;
+}
+
+
+@media(max-width: 600px)
+{
+	#mgbuttons
+	{
+		width: 400px;
+	}
+	#cont02
+	{
+	width: 100%;
+	margin: auto -9px auto -9px;
+	min-width: 600px;
+	}	
+	
+}
+
+@media(max-width: 500px)
+{
+	#cont02
+	{
+		margin: auto -9px auto -9px;
+		min-width: 450px;
+	}	
+	
+}

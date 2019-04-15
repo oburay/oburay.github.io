@@ -1,0 +1,44 @@
+body
+{
+	background-color: #DCDCDC;
+	font-family: segoe ui light;
+	width:100%;
+}
+table
+{
+	border-collapse: collapse;
+}
+th
+{
+	border-left: gray 1px solid;
+	padding: 10px;
+}
+td
+{
+	border-left: gray 1px solid;
+	padding: 7px;
+}
+#dispData
+{
+	position: relative;
+	margin: 120px auto auto auto;
+}
+
+
+
+
+.back
+{
+	position: relative;
+  float: left;
+  margin:10px auto 0 10px;
+  top: -5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.back:hover,
+.back:focus {
+  color: black;
+  cursor: pointer;
+}

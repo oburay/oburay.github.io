@@ -1,0 +1,262 @@
+body
+{
+	font-family: segoe ui light;
+	display: none;
+}	
+
+#cont01
+{
+	position: relative;
+	background-color: #1a1a1aff;
+	height: 85px;
+	max-height: 85px;
+}
+#logo
+{
+	left: 40px;
+	top: -22px;
+	height: 200px;
+	width: 120px;
+	position: absolute;
+	background-color: red;
+	font-family: segoe ui;
+	z-index: 1;
+	box-shadow: 0px 0px 7px black;
+}
+#logo img
+{
+	position: absolute;
+	margin: 100px auto auto 40px;
+	height: 40px;
+	width: 40px;
+	animation: somer 1s ease-out 1 forwards;
+}
+#logo h1
+{
+	position: absolute;
+	margin: 140px auto auto 4px;
+	color: white;
+	cursor: default;
+}
+#menu h3
+{
+	color: white;
+	font-family: segoe ui;
+	cursor: pointer;
+	border: gray 2px solid;
+	border-radius: 6px;
+	float: right;
+	margin: 30px -110px auto auto;
+	
+}
+#cont01 img
+{
+	margin: 30px 110px auto auto;
+	float: right;
+	width: 30px;
+	height: 30px;
+}
+
+#manage, #reserve,#empty1,#empty2
+{
+	display: inline;
+	text-align: center;
+	height: 100px;
+	width: 200px;
+	background-color: white;
+	box-shadow: 0px 0px 15px black;
+	border-radius:7px;
+	border-style: none;
+	font-size: 1em;
+	margin: 10px;
+}
+#reserve
+{
+	animation: TL 500ms 1s linear 1 forwards;
+}
+
+#manage:hover, #reserve:hover,#empty1:hover,#empty2:hover
+{
+	color: red;
+	box-shadow: 0px 0px 20px black;
+}
+#mid
+{
+	
+	position: relative;
+	top: 150px;
+	width: 500px;
+	max-width: 500px;
+	min-width: 500px;
+	height: 350px;
+	max-height: 350px;
+	
+}
+
+#reserve_form,#manage_form
+{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+  cursor: pointer;
+}
+#reserve_form input,#manage_form input
+{
+	position: relative;
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 20px;
+	margin-right: 40px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	box-sizing: border-box;
+}
+
+#reserve_form input[type=checkbox]
+{
+	width: auto;
+	margin-left: 40%;
+	margin-right: 10px;
+	padding: 0;
+}
+#reserve_form form,#manage_form form
+{
+	border-radius: 10px;
+	background-color: #fefefe;
+  	margin: 0% auto 15% auto; 
+  	border: 1px solid #888;
+	width: 40%;
+	min-width: 300px;
+}
+
+#reserve_form form:hover,#manage_form form:hover
+{
+	cursor: move;
+}
+
+#reserve_form label,#manage_form label
+{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.close {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  top: -5px;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus,#mbuttons span.close:hover {
+  color: red;
+  cursor: pointer;
+}
+#reserve_form button:hover
+{
+	opacity: 0.9;
+}
+#reserve_form input[type=button], #manage_form input[type=button]
+{
+	
+	font-size: 0.95em;
+	background-color: #4F4F4F;
+	color: white;
+	height: 40px;
+	cursor: pointer;
+	width: 90px;
+	margin: 8px auto -1px auto;
+	border-style: none;
+}
+
+#reserve_form input[type=button]:hover
+{
+  opacity: 0.8;
+}
+
+#manage_form form
+{
+	position: relative;
+	margin-top: 150px;
+}
+
+#mbuttons
+{
+	display: none;
+	position: relative;
+	background-color: #4F4F4F;
+	width: 230px;
+	height: 300px;
+	top:-35px;
+	float: right;
+	z-index: 2; 
+}
+
+#mbuttons span.close
+{
+	color: white;
+	margin-right: 20px;
+}
+
+#mbuttons button
+{
+	border-style: none;
+	background-color: #4F4F4F;
+	border-bottom: #666666 3px solid;
+	display: block;
+	color: white;
+	margin-left: 50px;
+	font-size: 1em;
+}
+#mbuttons button:hover
+{
+	background-color: #6F6F6F;
+}
+
+#manage_form input[type=button],#reserve_form input[type=button]
+{
+	border-radius: 0px;
+}
+
+
+
+/*@media(max-width: 600px)
+{
+	#cont01
+{
+	top: -22px;
+	min-width: 600px;
+}	
+
+	#mid
+	{
+	position: relative;
+	margin: 150px auto auto 15%;
+	}
+
+	
+}
+
+@media(max-width: 500px)
+{
+
+	#mbuttons
+{
+	left: auto;
+	right: -250px;
+	
+}
+}*/
+
+
