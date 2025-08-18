@@ -1,0 +1,658 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Ray — Cybersecurity engineer. Portfolio, research, blog and contact.">
+  <title>Ray — Cybersecurity Engineer</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Restored single stylesheet -->
+  <link rel="stylesheet" href="site/styles.css">
+
+  <meta property="og:title" content="Ray — Cybersecurity Engineer">
+  <meta property="og:description" content="Security-first engineering, research, and writing by Ray.">
+  <meta property="og:image" content="site/assets/profile.jpg">
+</head>
+<body class="reveal-ready">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ray home">
+        <!-- Shield monogram with R -->
+        <svg width="56" height="56" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="gA" x1="0" x2="1"><stop offset="0" stop-color="#00ffb3"/><stop offset="1" stop-color="#8cffef"/></linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="12" fill="#04131a"/>
+          <path d="M32 10 L50 18 L50 36 C50 48 40 58 32 62 C24 58 14 48 14 36 L14 18 Z" fill="url(#gA)" opacity="0.08"/>
+          <text x="50%" y="56%" text-anchor="middle" fill="#00ffb3" font-family="JetBrains Mono, monospace" font-weight="700" font-size="20">R</text>
+        </svg>
+      </a>
+
+      <nav class="primary-nav" role="navigation" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="site/blog.html">Blog</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+      </nav>
+
+      <a href="javascript:void(0)" class="resume-cta" aria-label="Resume (coming soon)">Resume</a>
+    </div>
+  </header>
+
+  <!-- left social rail / right email rail -->
+  <aside class="side-rail left" aria-label="Social links">
+    <ul>
+      <li>
+        <a href="https://github.com/oburay" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M12 2a10 10 0 0 0-3 19.5c.48.09.66-.21.66-.47v-1.7c-2.7.59-3.27-1.3-3.27-1.3-.44-1.11-1.08-1.41-1.08-1.41-.88-.6.07-.59.07-.59.97.07 1.48 1 1.48 1 .86 1.48 2.26 1.05 2.81.8.09-.64.33-1.05.6-1.29-2.15-.24-4.41-1.08-4.41-4.79 0-1.06.38-1.93 1-2.61-.1-.25-.44-1.26.1-2.62 0 0 .82-.26 2.7 1 .78-.22 1.62-.33 2.45-.33.83 0 1.67.11 2.45.33 1.88-1.26 2.7-1 2.7-1 .54 1.36.2 2.37.1 2.62.62.68 1 1.55 1 2.61 0 3.72-2.27 4.54-4.43 4.78.34.3.65.88.65 1.78v2.63c0 .26.18.57.67.47A10 10 0 0 0 12 2z"/>
+          </svg>
+          <span class="sr-only">GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://x.com/0buray" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M4 3l7.4 9.1L4.5 21H7l6-6.7L18.8 21H22l-7.9-9.8L20.7 3H18L12.4 9.3 8.1 3H4z"/>
+          </svg>
+          <span class="sr-only">X</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.linkedin.com/in/oburay" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM4 9h2.9v12H4zM10 9h2.8v1.7h.04c.39-.72 1.35-1.48 2.79-1.48 2.98 0 3.53 1.96 3.53 4.5V21H16.4v-5.3c0-1.27-.02-2.9-1.77-2.9-1.78 0-2.05 1.38-2.05 2.8V21H10z"/>
+          </svg>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <aside class="side-rail right" aria-label="Email">
+    <a class="email" href="mailto:info.oburay@gmail.com">info.oburay@gmail.com</a>
+  </aside>
+
+  <main id="main" class="container">
+
+    <!-- Landing (full-viewport, replayable) -->
+    <section id="landing" class="panel landing-hero" aria-labelledby="landing-title">
+      <div class="landing-inner">
+        <div class="landing-left">
+          <p class="eyebrow mono">INIT ▶ SECURITY SESSION</p>
+          <h1 id="landing-title" class="catchy">Access Granted_</h1>
+
+          <!-- Terminal animation area -->
+          <div class="term" aria-live="polite" aria-label="Secure session terminal">
+            <div class="term-head">
+              <span class="dot g"></span><span class="dot y"></span><span class="dot r"></span>
+              <span class="path mono">/secure/session</span>
+            </div>
+            <pre id="landing-terminal" class="term-body mono" tabindex="0"></pre>
+            <div class="term-progress" aria-hidden="true"><span></span></div>
+          </div>
+
+          <!-- Personalized welcome, revealed after ACCESS is granted -->
+          <div id="welcome" class="welcome" hidden aria-live="polite"></div>
+
+          <!-- Scroll cue -->
+          <button class="scroll-cue mono" type="button" data-scroll="#about" aria-label="Scroll down to About">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> SCROLL
+          </button>
+        </div>
+
+        <figure class="landing-art" aria-hidden="true">
+          <!-- Personalized "Ray" Security Orb (no photo) -->
+          <div class="security-orb" role="img" aria-label="Ray's security orb">
+            <div class="orb-glow"></div>
+
+            <!-- Globe grid -->
+            <svg class="orb-grid" viewBox="0 0 200 200" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="orbG" x1="0" x2="1">
+                  <stop offset="0" stop-color="#00ff9c"/><stop offset="1" stop-color="#5ad8ff"/>
+                </linearGradient>
+              </defs>
+              <g stroke="url(#orbG)" stroke-opacity="0.28" stroke-width="0.6" fill="none">
+                <!-- Latitudes -->
+                <path d="M10 60 Q100 20 190 60" />
+                <path d="M10 100 Q100 60 190 100" />
+                <path d="M10 140 Q100 180 190 140" />
+                <!-- Longitudes -->
+                <path d="M60 10 Q20 100 60 190" />
+                <path d="M100 10 Q100 100 100 190" />
+                <path d="M140 10 Q180 100 140 190" />
+                <!-- Ring -->
+                <circle cx="100" cy="100" r="90" stroke-opacity="0.35"/>
+              </g>
+            </svg>
+
+            <!-- Radar sweep (CSS conic gradient) -->
+            <div class="radar-sweep"></div>
+
+            <!-- Cipher sigil with "R" and tick marks -->
+            <svg class="sigil" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="sigG" x1="0" x2="1">
+                  <stop offset="0" stop-color="#00ff9c"/><stop offset="1" stop-color="#5ad8ff"/>
+                </linearGradient>
+                <mask id="dashMask">
+                  <circle cx="100" cy="100" r="72" fill="none" stroke="white" stroke-width="10" stroke-dasharray="6 10" stroke-linecap="round"/>
+                </mask>
+              </defs>
+              <!-- Outer dashed ring (animated via CSS) -->
+              <circle class="ring" cx="100" cy="100" r="72" fill="none" stroke="url(#sigG)" stroke-width="2" stroke-dasharray="6 10" stroke-linecap="round"/>
+              <!-- Tick ring highlight using mask -->
+              <circle cx="100" cy="100" r="72" fill="none" stroke="url(#sigG)" stroke-opacity=".25" stroke-width="8" mask="url(#dashMask)"/>
+              <!-- Monogram -->
+              <text x="50%" y="56%" text-anchor="middle" class="sigil-r">R</text>
+            </svg>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Hero (About) – keep your existing hero section as the next panel -->
+    <section id="about" class="panel about-section" aria-labelledby="about-title">
+      <div class="about-inner">
+        <h2 id="about-title" class="about-heading">
+          <span class="index mono">01.</span>
+          <span class="text">About Me</span>
+          <span class="rule" aria-hidden="true"></span>
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="lead type-line">I'm a <strong>security consultant</strong> with extensive experience helping organizations harden networks, applications, and cloud workloads against real‑world adversaries. My work blends offensive testing with pragmatic defense—threat modeling, secure architecture, and measurable risk reduction.</p>
+
+            <p class="type-line">I'm currently pursuing an M.S. in <strong>Computer Science</strong> at <strong>Stanford</strong>, concentrating in Computer Networks and Security.I also serve as <strong>Co‑President</strong> of the <strong>Computer Science</strong> Student Council at <strong>Stanford</strong>. I'm also exploring AI red teaming—systematically probing models and agentic systems to surface novel risks, jailbreaks, prompt‑injection paths, data‑exfiltration vectors, and model‑supply‑chain weaknesses before they're exploited.</p>
+
+            <p class="subtle core-label">Core strengths:</p>
+
+            <div class="strength-chips" role="list">
+              <button class="strength-chip" role="listitem" aria-describedby="sc-net" data-pop="Segmentation, hardening, zero‑trust, cloud posture.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4 10h16M4 14h16M12 4v16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none" opacity=".35"/>
+                  </svg>
+                </span>
+                Network & Cloud
+              </button>
+
+              <button class="strength-chip" role="listitem" aria-describedby="sc-app" data-pop="Secure SDLC, application & API security, mobile + web, vuln remediation.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3.5" y="5" width="17" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M7 9h10M7 13h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                Application & API
+              </button>
+
+              <button class="strength-chip" role="listitem" aria-describedby="sc-arch" data-pop="Security architecture reviews & threat modeling driving measurable risk reduction.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3l7 4v6c0 5-4 7-7 8-3-1-7-3-7-8V7l7-4z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M9 12l3 2 3-2" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                Architecture & Threat Modeling
+              </button>
+
+              <button class="strength-chip" role="listitem" aria-describedby="sc-red" data-pop="Adversary emulation, penetration testing & coordinated vulnerability validation to uplift controls.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M12 12L19 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                Pen Testing & Vulnerability
+              </button>
+
+              <button class="strength-chip" role="listitem" aria-describedby="sc-grc" data-pop="Governance, risk & compliance with developer‑friendly guardrails and automation.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 5h14v6c0 5-4.5 7.5-7 8.5C9.5 18.5 5 16 5 11V5z" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                    <path d="M9 11l2.2 2.2L15.5 9" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                GRC & Dev Controls
+              </button>
+
+              <button class="strength-chip" role="listitem" aria-describedby="sc-ai" data-pop="AI red teaming: prompt injection, jailbreaks, model abuse & emergent risk surfacing.">
+                <span class="ico">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6 10a6 6 0 0 1 12 0c0 5-4 7-6 9-2-2-6-4-6-9z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M9 10h6M10 13h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                AI Red Teaming
+              </button>
+
+              <!-- Accessible static descriptions -->
+              <span id="sc-net" class="sr-only">Segmentation, hardening, zero‑trust, cloud posture.</span>
+              <span id="sc-app" class="sr-only">Secure SDLC, application and API security, mobile and web, vulnerability remediation.</span>
+              <span id="sc-arch" class="sr-only">Security architecture reviews and threat modeling reducing risk.</span>
+              <span id="sc-red" class="sr-only">Adversary emulation, penetration testing, and vulnerability validation to uplift controls.</span>
+              <span id="sc-grc" class="sr-only">Governance, risk and compliance with developer-friendly guardrails and automation.</span>
+              <span id="sc-ai" class="sr-only">AI red teaming: prompt injection, jailbreaks, model abuse and emergent risk surfacing.</span>
+            </div>
+
+            <div class="strength-popline" id="strength-pop" aria-live="polite">
+              <span class="hint">Hover or focus a capability to see details.</span>
+            </div>
+          </div>
+
+          <figure class="about-photo" aria-hidden="false">
+            <div class="photo-frame">
+              <img src="site/assets/profile.jpg" alt="Headshot: Ray">
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience with security focus -->
+    <section id="experience" class="panel exp-section" aria-labelledby="exp-title">
+      <h2 id="exp-title" class="section-title" data-index="02">Professional Experience</h2>
+
+      <div class="exp-grid" role="tablist" aria-orientation="vertical">
+        <!-- Left tabs -->
+        <nav class="exp-nav" aria-label="Companies">
+          <button class="exp-tab" role="tab" aria-selected="true" aria-controls="exp-deloitte" id="tab-deloitte">
+            Deloitte
+            <span class="dates">Nov 2021 — Aug 2024</span>
+          </button>
+          <button class="exp-tab" role="tab" aria-selected="false" aria-controls="exp-company2" id="tab-company2">
+            Fidelity Bank 
+            <span class="dates">Aug 2023 — Aug 2024</span>
+          </button>
+          <button class="exp-tab" role="tab" aria-selected="false" aria-controls="exp-company3" id="tab-company3">
+            Inveteck Global
+            <span class="dates">Oct 2019 — Oct 2021</span>
+          </button>
+        </nav>
+
+        <!-- Right panels - key changes to ensure content displays -->
+        <div class="exp-panels">
+          <section id="exp-deloitte" class="exp-panel active" role="tabpanel" tabindex="0" aria-labelledby="tab-deloitte">
+            <header class="exp-headline">
+              <strong>Senior Cyber Risk Consultant</strong>
+              <span class="muted">@ Deloitte </span>
+              <span class="muted timeframe">Nov 2021 — Aug 2024</span>
+            </header>
+            <p class="muted exp-summary">At Deloitte, I led security architecture reviews across web, mobile, cloud, and enterprise networks and partnered with DevOps to bake security into CI/CD. I built automation to map API and cloud attack surfaces, delivered penetration testing and network assessments aligned to NIST/COBIT/ASVS, and drove security audits and risk assessments alongside ISO 27001/22301/PCI DSS and SOC reporting—elevating security posture and compliance readiness.</p>
+            <div class="exp-tags"><span>Architecture</span><span>Vuln Mgmt</span><span>Pen testing</span><span>PCI DSS</span><span>ISO 27001</span></div>
+          </section>
+
+          <section id="exp-company2" class="exp-panel" role="tabpanel" aria-labelledby="tab-company2" hidden>
+            <header class="exp-headline">
+              <strong>Security Consultant (Secondment)</strong>
+              <span class="muted">@ Fidelity Bank </span>
+              <span class="muted timeframe">Aug 2023 — Aug 2024</span>
+            </header>
+            <p class="muted exp-summary">At Fidelity Bank, I strengthened enterprise networks through segmentation and performance hardening, and built Bash/Python playbooks to automate diagnostics and remediation. I led API security and penetration testing, partnered with developers to embed secure frameworks, defensive coding, and rate‑limiting, and ran institution‑wide vulnerability management with actionable risk reporting. I also executed resilience and stress exercises on critical systems to validate availability and fortify business continuity.</p>
+            <div class="exp-tags"><span>Network</span><span>API Security</span><span>Automation</span><span>Vuln Mgmt</span><span>Resilience</span></div>
+          </section>
+
+          <section id="exp-company3" class="exp-panel" role="tabpanel" aria-labelledby="tab-company3" hidden>
+            <header class="exp-headline">
+              <strong>Cyber Security Analyst</strong>
+              <span class="muted">@ Inveteck Global</span>
+              <span class="muted timeframe">Oct 2019 — Oct 2021</span>
+            </header>
+            <p class="muted exp-summary">At Inveteck Global, I ran end‑to‑end vulnerability management and penetration testing across diverse client environments, coordinating remediation to harden servers and services. I built hands‑on security training modules and labs—including a CTF platform with vulnerable APIs—to upskill developers and embed secure coding and controls (access, segmentation, encryption) in new applications. I also automated triage by scripting log parsing, and conducted security research to identify emerging vulnerabilities with proof‑of‑concepts and actionable recommendations.</p>
+            <div class="exp-tags"><span>Vuln Mgmt</span><span>Pen testing</span><span>PoC</span><span>Training</span><span>Research</span></div>
+          </section>
+        </div>
+      </div>
+    </section> <!-- end Experience -->
+
+    <!-- Education (timeline) -->
+    <section id="education" class="panel edu-section" aria-labelledby="edu-title">
+      <h2 id="edu-title" class="section-title" data-index="03">Education</h2>
+
+      <ol class="edu-timeline">
+        <!-- Master's -->
+        <li class="edu-item">
+          <div class="edu-marker">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="year mono">2025</span>
+          </div>
+          <article class="edu-card">
+            <header class="edu-head">
+              <strong class="degree">M.S. in Computer Science</strong>
+              <span class="school">@ Stanford University</span>
+              <span class="timeframe">2024 — Present</span>
+            </header>
+
+            <p class="edu-subtitle">Concentration</p>
+            <p class="edu-value">Computer Networks &amp; Security</p>
+
+            </article>
+        </li>
+
+        <!-- Bachelor's -->
+        <li class="edu-item">
+          <div class="edu-marker">
+            <span class="dot" aria-hidden="true"></span>
+            <span class="year mono">2017</span>
+          </div>
+          <article class="edu-card">
+            <header class="edu-head">
+              <strong class="degree">B.S. in Computer Engineering </strong> 
+              <span class="school">@ KNUST</span>
+              <span class="timeframe">2017 — 2021</span>
+            </header>
+
+            <p class="edu-subtitle">Honors</p>
+            <p class="edu-value">First Class Degree</p>
+
+            </article>
+        </li>
+      </ol>
+    </section>
+    <!-- /NEW: Education -->
+
+    <!-- Research Experience -->
+    <section id="research" class="panel research-section" aria-labelledby="res-title">
+      <h2 id="res-title" class="section-title" data-index="04">Research Experience</h2>
+
+      <article class="res-card">
+        <header class="res-head">
+          <span class="res-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+              <!-- Erlenmeyer flask -->
+              <path d="M10 3v4L6 14l2.6 4.5h6.8L18 14l-4-7V3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+              <!-- liquid curve -->
+              <path d="M8 14.5c1.3.8 2.7.8 4 0s2.7-.8 4 0" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" opacity=".7"/>
+              <!-- bubbles -->
+              <circle cx="11" cy="15.3" r="1" fill="currentColor"/>
+              <circle cx="14.6" cy="16.2" r="0.9" fill="currentColor" opacity=".85"/>
+            </svg>
+          </span>
+          <div class="res-title">
+            <strong>Graduate Research Assistant</strong>
+            <span class="muted">@ Stanford — Empirical Security Research Group (ESRG)</span>
+          </div>
+          <span class="muted timeframe">Oct 2024 — Present</span>
+        </header>
+
+        <p class="res-summary">
+          At Stanford's ESRG, I'm engaged in a systematic analysis of government issued enterprise‑security guidance across 41 countries, measuring availability, coverage, and cross‑country consistency. We derive coverage density and consensus scores to define "essential" guidance and help organizations prioritize controls for multinational compliance, based on our security taxonomy.  
+        </p>
+
+        <div class="exp-tags res-tags"><span>Comparative Policy</span><span>Metrics</span><span>Taxonomy</span><span>Governance</span><span>Enterprise Security</span></div>
+      </article>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="panel" aria-labelledby="publications-title">
+      <h2 id="publications-title" class="section-title" data-index="05">Publications</h2>
+      <ol class="publications">
+        <li class="pub-item">
+          <strong class="pub-title">A First Look at Governments' Enterprise Security Guidance</strong>
+          <div class="pub-authors">Kimberly Ruth, <strong>Raymond Buernor Obu</strong>, Ifeoluwa Shode, Gavin Li, Carrie Gates, Grant Ho, Zakir Durumeric</div>
+          <div class="pub-venue">USENIX Security Symposium, August 2025</div>
+          <a class="link" href="site/assets/A First Look at Governments’ Enterprise Security Guidance.pdf">PDF</a>
+        </li>
+<!-- 
+        <li class="pub-item">
+          <strong class="pub-title">Privacy-aware telemetry for security analytics</strong>
+          <div class="pub-authors"><strong>Ray, R.</strong> (2024)</div>
+          <div class="pub-venue">Example SysConf</div>
+          <a class="link" href="#">PDF</a>
+        </li>
+
+        <li class="pub-item">
+          <strong class="pub-title">Making threat models actionable</strong>
+          <div class="pub-authors"><strong>Ray, R.</strong> (2022)</div>
+          <div class="pub-venue">Journal of Usable Security</div>
+          <a class="link" href="#">PDF</a>
+        </li> -->
+      </ol>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="panel" aria-labelledby="proj-title">
+      <h2 id="proj-title" class="section-title" data-index="06">Selected Projects</h2>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Sentinel (primary) -->
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="site/assets/Multi‑LLM Workbench.png" alt="Screenshot: Sentinel Dashboard" loading="lazy">
+            <div class="project-flag">Open Source</div>
+          </div>
+          <div class="project-content">
+            <h3>Multi‑LLM Workbench</h3>
+            <p class="muted">Parallel local LLM microservices with one unified UI.</p>
+            <div class="meta"><span>Docker</span><span>Ollama</span><span>LLM</span><span>Microservices</span></div>
+            <div class="project-actions">
+              <!-- <a href="#" class="link" target="_blank" rel="noopener">Demo</a> -->
+              <a href="https://github.com/oburay/multi-llm-workbench" class="link" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AuditKit (primary) -->
+        <article class="project-card">
+          <div class="project-thumb">
+            <img src="site/assets/Local LLM Stack.png" alt="Screenshot: Audit tooling" loading="lazy">
+            <div class="project-flag">Open Source</div>
+          </div>
+          <div class="project-content">
+            <h3>Local LLM Stack</h3>
+            <p class="muted">Drop‑in two‑container template to self‑host any Ollama model.</p>
+            <div class="meta"><span>Docker</span><span>Ollama</span><span>LLM</span></div>
+            <div class="project-actions">
+              <a href="https://github.com/oburay/local-llm-stack" class="link" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Hidden extras -->
+        <article class="project-card extra" hidden>
+          <div class="project-thumb">
+            <img src="site/assets/Political Misinformation Bot.png" alt="Dashboard: Multi‑LLM Workbench unified chat" loading="lazy">
+            <div class="project-flag">Open Source</div>
+          </div>
+          <div class="project-content">
+            <h3>Political Misinformation Bot</h3>
+            <p class="muted">LLM‑assisted Discord bot triaging political misinformation.</p>
+            <div class="meta"><span>LLM</span><span>Bot</span><span>Content Moderation</span></div>
+            <div class="project-actions">
+              <a href="https://github.com/teddy-zhng/cs152bots-group8" class="link" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card extra" hidden>
+          <div class="project-thumb">
+            <img src="site/assets/SMS Spam Classification.png" alt="Architecture: Local LLM Stack two‑container diagram" loading="lazy">
+            <div class="project-flag">Open Source</div>
+          </div>
+          <div class="project-content">
+            <h3>SMS Spam Classification</h3>
+            <p class="muted">Lean TF‑IDF + Naive Bayes pipeline catching SMS spam fast.</p>
+            <div class="meta"><span>Python</span><span>NLP</span><span>NaiveBayes</span></div>
+            <div class="project-actions">
+              <a href="https://github.com/oburay/sms-spam-classification" class="link" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="project-actions more-projects-wrap">
+        <button id="toggle-projects" class="more-projects" type="button" aria-expanded="false" aria-controls="projects-grid">Show more projects</button>
+      </div>
+    </section>
+
+    <!-- Leadership & Volunteering -->
+    <section id="leadership" class="panel lead-section" aria-labelledby="lead-title">
+      <h2 id="lead-title" class="section-title" data-index="07">Leadership & Volunteering</h2>
+
+      <!-- Filters -->
+      <div class="lead-controls" role="toolbar" aria-label="Filter roles">
+        <button class="lead-chip is-active" data-filter="all" type="button" aria-pressed="true">All</button>
+        <button class="lead-chip" data-filter="club" type="button">Clubs</button>
+        <button class="lead-chip" data-filter="gov" type="button">Student Gov</button>
+        <button class="lead-chip" data-filter="non-profit" type="button">Non-Profit</button>
+        <button class="lead-chip" data-filter="volunteer" type="button">Volunteering</button>
+      </div>
+
+      <!-- Leadership Cards Grid -->
+      <div class="leadership-grid">
+        <div class="leadership-card" data-kind="gov">
+          <div class="leadership-content">
+            <h3>Co-President</h3>
+            <div class="leadership-org">@ Stanford Computer Science Student Council</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2025 — 2026</div>
+              <div class="leadership-badge">Student Gov</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card" data-kind="gov">
+          <div class="leadership-content">
+            <h3>President</h3>
+            <div class="leadership-org">@ KNUST Association of Computer Engineering Students</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2021 — 2022</div>
+              <div class="leadership-badge">Student Gov</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card" data-kind="gov">
+          <div class="leadership-content">
+            <h3>Undergraduate Representative</h3>
+            <div class="leadership-org">@ KNUST Comp & Elec. Faculty Board</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2020 — 2021</div>
+              <div class="leadership-badge">Student Gov</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card" data-kind="non-profit">
+          <div class="leadership-content">
+            <h3>Co-founder</h3>
+            <div class="leadership-org">@ African Cyber Experience</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2023 — Present</div>
+              <div class="leadership-badge">Non-Profit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="leadership-card" data-kind="volunteer">
+          <div class="leadership-content">
+            <h3>Student Information Security Consultant</h3>
+            <div class="leadership-org">@ Stanford Security Clinic</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2024 — Present</div>
+              <div class="leadership-badge">Volunteering</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extras still hidden for Show more functionality -->
+        <div class="leadership-card extra" data-kind="gov" hidden>
+          <div class="leadership-content">
+            <h3>Senate Member</h3>
+            <div class="leadership-org">@ Ghana Engineering Students Association - Senate</div>
+            <div class="leadership-meta">
+              <div class="leadership-date">2020 — Present</div>
+              <div class="leadership-badge">Student Gov</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lead-actions">
+        <button id="toggle-leadership" class="more-projects" type="button" aria-controls="leadership" aria-expanded="false">
+          Show more roles
+        </button>
+      </div>
+    </section>
+
+    <!-- Finale: Connect -->
+    <section id="connect" class="panel connect-section" aria-labelledby="connect-title">
+      <div class="connect-wrap">
+        <h2 id="connect-title" class="section-title no-index">Let's Build Something Secure</h2>
+
+        <article class="connect-card" role="group" aria-label="Connect calls-to-action">
+          <!-- subtle ornaments -->
+          <div class="connect-ornaments" aria-hidden="true">
+            <!-- shield -->
+            <svg class="orn o-shield" viewBox="0 0 64 64"><path d="M32 6l20 8v16c0 12-10 22-20 26C22 52 12 42 12 30V14l20-8z" fill="none" stroke="currentColor" stroke-width="2" opacity=".5"/></svg>
+            <!-- lock -->
+            <svg class="orn o-lock" viewBox="0 0 64 64"><rect x="14" y="28" width="36" height="24" rx="6" fill="none" stroke="currentColor" stroke-width="2" opacity=".45"/><path d="M22 28v-6a10 10 0 0 1 20 0v6" fill="none" stroke="currentColor" stroke-width="2" opacity=".45"/></svg>
+            <!-- radar -->
+            <svg class="orn o-radar" viewBox="0 0 64 64"><circle cx="32" cy="32" r="18" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/><circle cx="32" cy="32" r="12" fill="none" stroke="currentColor" stroke-width="2" opacity=".25"/><path d="M32 32 L50 20" stroke="currentColor" stroke-width="2" opacity=".45"/></svg>
+          </div>
+
+          <p class="connect-lead">
+            Open to collaborations, security reviews, and speaking. If you've got an idea worth hardening,
+            let's make it real.
+          </p>
+
+          <div class="connect-ctas">
+            <a id="email-cta" class="btn primary"
+               href="mailto:info.oburay@gmail.com?subject=Hello%20Ray&body=Hi%20Ray%2C%0A%0A">
+              Email me
+            </a>
+            <a class="resume-cta" href="javascript:void(0)" aria-label="Resume (coming soon)">Resume</a>
+            <button type="button" class="btn ghost copy-email" data-email="info.oburay@gmail.com" aria-live="polite">Copy email</button>
+          </div>
+
+          <!-- Socials -->
+          <ul class="connect-social" aria-label="Social links">
+            <li>
+              <a href="https://github.com/oburay" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3 19.5c.48.09.66-.21.66-.47v-1.7c-2.7.59-3.27-1.3-3.27-1.3-.44-1.11-1.08-1.41-1.08-1.41-.88-.6.07-.59.07-.59  .97.07 1.48 1 1.48 1 .86 1.48 2.26 1.05 2.81.8.09-.64.33-1.05.6-1.29-2.15-.24-4.41-1.08-4.41-4.79 0-1.06.38-1.93 1-2.61-.1-.25-.44-1.26.1-2.62 0 0 .82-.26 2.7 1 .78-.22 1.62-.33 2.45-.33.83 0 1.67.11 2.45.33 1.88-1.26 2.7-1 2.7-1 .54 1.36.2 2.37.1 2.62.62.68 1 1.55 1 2.61 0 3.72-2.27 4.54-4.43 4.78.34.3.65.88.65 1.78v2.63c0 .26.18.57.67.47A10 10 0 0 0 12 2z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/0buray" target="_blank" rel="noopener" aria-label="X">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3l7.4 9.1L4.5 21H7l6-6.7L18.8 21H22l-7.9-9.8L20.7 3H18L12.4 9.3 8.1 3H4z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/in/oburay" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM4 9h2.9v12H4zM10 9h2.8v1.7h.04c.39-.72 1.35-1.48 2.79-1.48 2.98 0 3.53 1.96 3.53 4.5V21H16.4v-5.3c0-1.27-.02-2.9-1.77-2.9-1.78 0-2.05 1.38-2.05 2.8V21H10z"/></svg>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        Designed with <span class="heart" aria-hidden="true" title="love">❤️</span> from Ray
+      </p>
+    </div>
+  </main>
+
+  <script src="site/scripts.js" defer></script>
+  <script src="site/leadership.js" defer></script>
+</body>
+</html>
