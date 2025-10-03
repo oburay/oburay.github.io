@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Post — Ray</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site/styles.css">
+</head>
+<body class="reveal-ready">
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#article">Skip to article</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">R</a>
+      <nav class="primary-nav"><ul><li><a href="index.html">Home</a></li><li><a href="site/blog.html">Blog</a></li></ul></nav>
+      <a class="cta" href="#">Resume</a>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <article id="article" class="panel post-article" aria-labelledby="post-title">
+      <!-- In practice you'd serve this with generated content or CMS -->
+      <h1 id="post-title">Privacy-aware telemetry for security analytics</h1>
+      <p class="muted">By Ray • Jan 2025 • 12 min read</p>
+
+      <div class="post-meta">
+        <span class="tag">security</span>
+        <span class="tag">telemetry</span>
+      </div>
+
+      <figure class="post-hero"><img src="site/assets/post-hero.jpg" alt="Abstract visualization of network telemetry"></figure>
+
+      <div class="post-body">
+        <h2>Abstract</h2>
+        <p>Short abstract — telemetry must be privacy-aware while enabling threat detection. In this post I outline patterns and an architecture that balances both concerns.</p>
+
+        <h2>Intro</h2>
+        <p>...</p>
+
+        <h2>Design</h2>
+        <p>Example code snippet:</p>
+        <pre><code class="code">fetch('/telemetry', {method: 'POST', body: JSON.stringify({metric: 'login_failure', sample: true})})</code></pre>
+
+        <h2>Conclusion</h2>
+        <p>...</p>
+      </div>
+
+      <nav class="post-nav">
+        <a href="site/blog.html" class="link">← Back to posts</a>
+        <a href="#" class="link">Read next →</a>
+      </nav>
+    </article>
+  </main>
+
+  <script src="site/scripts.js" defer></script>
+</body>
+</html>
