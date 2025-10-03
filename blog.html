@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Writing — Ray</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="reveal-ready">
+
+  <!-- Header (identical to index) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Home">
+        <span class="logo-shield">R</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburger" aria-hidden="true"></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <ul id="nav-list">
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li><a href="../index.html#education">Education</a></li>
+          <li><a href="../index.html#research">Research</a></li>
+          <li><a href="../index.html#publications">Publications</a></li>
+          <li><a href="../index.html#projects">Projects</a></li>
+          <li><a href="../index.html#leadership">Leadership</a></li>
+          <li><a href="blog.html" class="active" aria-current="page">Blog</a></li>
+          <li><a href="../index.html#connect">Connect</a></li>
+        </ul>
+
+        <a class="resume-cta" href="javascript:void(0)" aria-label="Resume (coming soon)">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="writing" class="panel blog-section" aria-labelledby="blog-title">
+      <h1 id="blog-title" class="section-title" data-index="06">Writing</h1>
+      <p class="blog-tagline">Security research, tutorials, and field notes.</p>
+
+      <!-- Controls -->
+      <div class="blog-controls" role="toolbar" aria-label="Filter posts">
+        <div class="search-wrap">
+          <svg class="search-ico" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 1 0-1.4 1.4l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+          <input id="blog-search" class="blog-search" type="search" placeholder="Search posts…" aria-label="Search posts" />
+          <kbd class="hint">/</kbd>
+        </div>
+
+        <div class="chip-row" role="tablist" aria-label="Categories">
+          <button class="chip is-active" data-tag="all" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-tag="security" role="tab" aria-selected="false">Security</button>
+          <button class="chip" data-tag="ai" role="tab" aria-selected="false">AI</button>
+          <button class="chip" data-tag="research" role="tab" aria-selected="false">Research</button>
+          <button class="chip" data-tag="tools" role="tab" aria-selected="false">Tools</button>
+        </div>
+      </div>
+
+      <!-- Grid -->
+      <div class="blog-grid" id="blog-grid">
+        <!-- HTB AI Walkthrough -->
+        <article class="post-card" data-tags="security,ai" data-title="HTB: Manipulating the Model Walkthrough">
+          <a href="htb-manipulating-model.html" class="post-thumb">
+            <img src="assets/htb-manipulating-model-thumb.jpg" alt="AI model manipulation visualization" />
+          </a>
+          <div class="post-body">
+            <header class="post-head">
+              <a class="post-title" href="htb-manipulating-model.html">HTB: Manipulating the Model Walkthrough</a>
+              <div class="post-meta">
+                <span class="pill date">Aug 2023</span>
+                <span class="pill time">8 min read</span>
+              </div>
+            </header>
+            <p class="post-excerpt">
+              A step-by-step guide to solving HackTheBox's AI security challenges with techniques for model manipulation, data poisoning, and model theft.
+            </p>
+            <ul class="post-tags"><li>Security</li><li>AI</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <p id="no-results" class="no-results" hidden>No posts match your search.</p>
+    </section>
+
+    <div class="footer-bottom">
+      <p class="copyright">Designed with <span class="heart" aria-hidden="true">❤️</span> from Ray</p>
+    </div>
+  </main>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>

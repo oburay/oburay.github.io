@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Fabrisk - Enterprise AI Attack Surface Management</title>
+    <meta name="title" content="Fabrisk - Enterprise AI Attack Surface Management">
+    <meta name="description" content="Complete visibility into your AI attack surface. Discover hidden AI spending, map every model and integration, detect and prevent adversarial attacks at scale.">
+    <meta name="keywords" content="AI security, attack surface management, AI visibility, adversarial AI, AI governance, enterprise AI, AI threat detection">
+    <meta name="author" content="Fabrisk">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fabrisk.ai/">
+    <meta property="og:title" content="Fabrisk - Enterprise AI Attack Surface Management">
+        <meta property="og:description" content="Secure your AI infrastructure with real-time attack surface management. Discover hidden AI spending, map models, and prevent adversarial attacks before they happen.">
+    <meta property="og:image" content="https://fabrisk.ai/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fabrisk.ai/">
+    <meta property="twitter:title" content="Fabrisk - Enterprise AI Attack Surface Management">
+        <meta property="twitter:description" content="Secure your AI infrastructure with real-time attack surface management. Discover hidden AI spending, map models, and prevent adversarial attacks before they happen.">
+    <meta property="twitter:image" content="https://fabrisk.ai/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0A2540" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    
+    <!-- Performance: Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Fabrisk",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Web",
+      "description": "Enterprise AI Attack Surface Management Platform",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "127"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Particle background canvas -->
+    <canvas id="particle-canvas" class="particle-canvas"></canvas>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="#" class="logo">
+                    <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 2L4 8v8c0 7.732 5.373 14.986 12 16.729C22.627 30.986 28 23.732 28 16V8l-12-6z" fill="currentColor"/>
+                        <path d="M12 16l3 3 6-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="logo-text">Fabrisk</span>
+                </a>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#overview" class="nav-link">Overview</a></li>
+                <li><a href="#platform" class="nav-link">Platform</a></li>
+                <li><a href="#why-fabrisk" class="nav-link">Why Fabrisk</a></li>
+                <li><a href="#frameworks" class="nav-link">Frameworks</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                    </svg>
+                </button>
+                <a href="#contact" class="btn btn-primary">Book a demo</a>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="overview">
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
+            
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-dot"></span>
+                            <span class="badge-text">Enterprise AI Security Platform</span>
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            Complete visibility into your
+                            <span class="gradient-text">AI attack surface</span>
+                        </h1>
+                        
+                        <p class="hero-description">
+                            Fabrisk gives enterprises complete visibility into their AI attack surface. We discover hidden AI spending, map every model and integration, and detect and prevent adversarial AI attacks and breaches before they happen.
+                        </p>
+                        
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary btn-large">
+                                <span>Book a demo</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                            <button class="btn btn-secondary btn-large" id="watch-demo-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polygon points="10 8 16 12 10 16 10 8"/>
+                                </svg>
+                                <span>Watch demo</span>
+                            </button>
+                        </div>
+                        
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-value" data-count="10">0</div>
+                                <div class="stat-unit">x</div>
+                                <div class="stat-label">Faster AI deployment than security</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-value" data-count="100">0</div>
+                                <div class="stat-unit">%</div>
+                                <div class="stat-label">AI asset visibility</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-value">Real-time</div>
+                                <div class="stat-label">Threat detection</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="dashboard-mockup">
+                            <div class="dashboard-header">
+                                <div class="dashboard-title">AI Attack Surface Overview</div>
+                                <div class="status-indicator">
+                                    <span class="status-dot"></span>
+                                    <span class="status-text">Live Monitoring</span>
+                                </div>
+                            </div>
+                            
+                            <div class="dashboard-grid">
+                                <div class="dashboard-card">
+                                    <div class="card-header">
+                                        <span class="card-icon">🎯</span>
+                                        <span class="card-title">Models Tracked</span>
+                                    </div>
+                                    <div class="card-value" data-count="247">0</div>
+                                    <div class="card-chart">
+                                        <svg class="mini-chart" viewBox="0 0 100 30">
+                                            <polyline class="chart-line" points="0,25 20,20 40,22 60,15 80,18 100,10"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                
+                                <div class="dashboard-card">
+                                    <div class="card-header">
+                                        <span class="card-icon">⚠️</span>
+                                        <span class="card-title">Threats Blocked</span>
+                                    </div>
+                                    <div class="card-value" data-count="1847">0</div>
+                                    <div class="card-trend positive">
+                                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                            <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/>
+                                        </svg>
+                                        <span>23% this week</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="dashboard-card">
+                                    <div class="card-header">
+                                        <span class="card-icon">💰</span>
+                                        <span class="card-title">Hidden Spending</span>
+                                    </div>
+                                    <div class="card-value">$127K</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="dashboard-card wide">
+                                    <div class="card-header">
+                                        <span class="card-icon">🔒</span>
+                                        <span class="card-title">Security Coverage</span>
+                                    </div>
+                                    <div class="coverage-ring">
+                                        <svg class="ring-chart" viewBox="0 0 100 100">
+                                            <circle class="ring-bg" cx="50" cy="50" r="40"/>
+                                            <circle class="ring-progress" cx="50" cy="50" r="40"/>
+                                        </svg>
+                                        <div class="ring-value">92%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="activity-feed">
+                                <div class="activity-item">
+                                    <span class="activity-dot"></span>
+                                    <span class="activity-text">New GPT-4 integration detected</span>
+                                    <span class="activity-time">2m ago</span>
+                                </div>
+                                <div class="activity-item">
+                                    <span class="activity-dot"></span>
+                                    <span class="activity-text">Prompt injection attempt blocked</span>
+                                    <span class="activity-time">5m ago</span>
+                                </div>
+                                <div class="activity-item">
+                                    <span class="activity-dot"></span>
+                                    <span class="activity-text">Policy violation in Finance dept</span>
+                                    <span class="activity-time">12m ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Section -->
+        <section class="platform-section" id="platform">
+            <div class="container">
+                                <div class="platform-header">
+                    <span class="section-badge">The Fabrisk Platform</span>
+                    <h2 class="section-title">Comprehensive AI Security in One Platform</h2>
+
+                <div class="platform-grid">
+                    <!-- Discovery Card -->
+                    <div class="platform-card scroll-reveal">
+                        <div class="platform-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                                <circle cx="11" cy="11" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="platform-card-title">AI Asset Discovery</h3>
+                        <p class="platform-card-description">
+                            Automatically discover all AI models, APIs, and integrations across your organization. Uncover shadow AI spending and rogue deployments.
+                        </p>
+                        <ul class="platform-card-features">
+                            <li>Auto-discovery of AI assets</li>
+                            <li>Shadow AI detection</li>
+                            <li>Spending visibility</li>
+                            <li>Integration mapping</li>
+                        </ul>
+                    </div>
+
+                    <!-- Monitoring Card -->
+                    <div class="platform-card scroll-reveal">
+                        <div class="platform-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="platform-card-title">Real-Time Monitoring</h3>
+                        <p class="platform-card-description">
+                            Monitor AI usage, performance, and security posture in real-time. Track every API call, model inference, and data flow.
+                        </p>
+                        <ul class="platform-card-features">
+                            <li>Live activity tracking</li>
+                            <li>Performance metrics</li>
+                            <li>Usage analytics</li>
+                            <li>Anomaly detection</li>
+                        </ul>
+                    </div>
+
+                    <!-- Protection Card -->
+                    <div class="platform-card scroll-reveal">
+                        <div class="platform-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="m9 12 2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="platform-card-title">Threat Prevention</h3>
+                        <p class="platform-card-description">
+                            Detect and block adversarial attacks, prompt injections, data leakage, and policy violations before they cause damage.
+                        </p>
+                        <ul class="platform-card-features">
+                            <li>Prompt injection blocking</li>
+                            <li>PII/data leak prevention</li>
+                            <li>Policy enforcement</li>
+                            <li>Attack surface reduction</li>
+                        </ul>
+                    </div>
+
+                    <!-- Compliance Card -->
+                    <div class="platform-card scroll-reveal">
+                        <div class="platform-card-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="9" y1="15" x2="15" y2="15"/>
+                            </svg>
+                        </div>
+                        <h3 class="platform-card-title">Compliance & Governance</h3>
+                        <p class="platform-card-description">
+                            Maintain compliance with AI regulations, industry standards, and internal policies. Automated audit trails and reporting.
+                        </p>
+                        <ul class="platform-card-features">
+                            <li>Regulatory compliance</li>
+                            <li>Policy management</li>
+                            <li>Audit trails</li>
+                            <li>Risk assessment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Fabrisk Section -->
+        <section class="why-fabrisk-section" id="why-fabrisk">
+            <div class="container">
+                <div class="why-fabrisk-grid">
+                    <div class="why-fabrisk-content">
+                        <span class="section-badge">Why Fabrisk</span>
+                        <h2 class="section-title">The AI security gap is growing. We close it.</h2>
+                        <p class="why-fabrisk-stat">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-text">Enterprises are deploying AI 10x faster than they're securing it</span>
+                        </p>
+                        
+                        <div class="why-fabrisk-points">
+                            <div class="why-point">
+                                <div class="why-point-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"/>
+                                    </svg>
+                                </div>
+                                <div class="why-point-content">
+                                    <h4>Complete Visibility</h4>
+                                    <p>Map every AI model, integration, and spending source across your entire organization.</p>
+                                </div>
+                            </div>
+
+                            <div class="why-point">
+                                <div class="why-point-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"/>
+                                    </svg>
+                                </div>
+                                <div class="why-point-content">
+                                    <h4>Proactive Protection</h4>
+                                    <p>Stop adversarial attacks, prompt injections, and data breaches before they happen.</p>
+                                </div>
+                            </div>
+
+                            <div class="why-point">
+                                <div class="why-point-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"/>
+                                    </svg>
+                                </div>
+                                <div class="why-point-content">
+                                    <h4>Enterprise Scale</h4>
+                                    <p>Built for Fortune 500 companies managing hundreds of AI models and integrations.</p>
+                                </div>
+                            </div>
+
+                            <div class="why-point">
+                                <div class="why-point-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"/>
+                                    </svg>
+                                </div>
+                                <div class="why-point-content">
+                                    <h4>Under an hour Setup</h4>
+                                    <p>Deploy in minutes with zero code changes. Immediate visibility and protection.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="why-fabrisk-visual">
+                        <div class="threat-visualization">
+                            <div class="threat-viz-header">
+                                <span class="threat-viz-title">Threat Landscape</span>
+                                <span class="threat-viz-live">● LIVE</span>
+                            </div>
+                            
+                            <div class="threat-categories">
+                                <div class="threat-category">
+                                    <div class="threat-cat-header">
+                                        <span class="threat-cat-name">Prompt Injection</span>
+                                        <span class="threat-cat-count">247</span>
+                                    </div>
+                                    <div class="threat-bar">
+                                        <div class="threat-bar-fill" style="width: 82%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="threat-category">
+                                    <div class="threat-cat-header">
+                                        <span class="threat-cat-name">Data Leakage</span>
+                                        <span class="threat-cat-count">183</span>
+                                    </div>
+                                    <div class="threat-bar">
+                                        <div class="threat-bar-fill" style="width: 65%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="threat-category">
+                                    <div class="threat-cat-header">
+                                        <span class="threat-cat-name">Policy Violation</span>
+                                        <span class="threat-cat-count">156</span>
+                                    </div>
+                                    <div class="threat-bar">
+                                        <div class="threat-bar-fill" style="width: 54%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="threat-category">
+                                    <div class="threat-cat-header">
+                                        <span class="threat-cat-name">Model Poisoning</span>
+                                        <span class="threat-cat-count">89</span>
+                                    </div>
+                                    <div class="threat-bar">
+                                        <div class="threat-bar-fill" style="width: 38%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="threat-category">
+                                    <div class="threat-cat-header">
+                                        <span class="threat-cat-name">Adversarial Input</span>
+                                        <span class="threat-cat-count">67</span>
+                                    </div>
+                                    <div class="threat-bar">
+                                        <div class="threat-bar-fill" style="width: 28%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="threat-summary">
+                                <div class="threat-summary-item">
+                                    <span class="threat-summary-label">Total Blocked</span>
+                                    <span class="threat-summary-value">742</span>
+                                </div>
+                                <div class="threat-summary-item">
+                                    <span class="threat-summary-label">This Week</span>
+                                    <span class="threat-summary-value">+23%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frameworks Section -->
+        <section class="frameworks-section" id="frameworks">
+            <div class="container">
+                <div class="section-header centered">
+                    <span class="section-badge">AI Frameworks & Models</span>
+                    <h2 class="section-title">Support for every AI platform</h2>
+                    <p class="section-description">
+                        Fabrisk integrates with all major AI providers, frameworks, and custom models. Universal compatibility for your entire AI stack.
+                    </p>
+                </div>
+
+                <div class="frameworks-grid">
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">OpenAI</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L2 7v10l10 5 10-5V7L12 2z"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Anthropic</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                                <polyline points="2 17 12 22 22 17"/>
+                                <polyline points="2 12 12 17 22 12"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Google AI</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Azure AI</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">AWS Bedrock</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Hugging Face</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Cohere</span>
+                    </div>
+
+                    <div class="framework-item scroll-scale">
+                        <div class="framework-logo">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            </svg>
+                        </div>
+                        <span class="framework-name">Custom Models</span>
+                    </div>
+                </div>
+
+                <div class="frameworks-cta">
+                    <p>And 50+ more integrations</p>
+                    <a href="#contact" class="btn btn-secondary">See all integrations</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/CTA Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-content">
+                        <span class="section-badge">Get Started</span>
+                        <h2 class="section-title">Secure your AI infrastructure today</h2>
+                        <p class="contact-description">
+                            Join leading enterprises protecting their AI assets with Fabrisk. Book a personalized demo to see how we can secure your AI attack surface.
+                        </p>
+
+                        <div class="contact-benefits">
+                            <div class="contact-benefit">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Under an hour setup</span>
+                            </div>
+                            <div class="contact-benefit">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>No code changes required</span>
+                            </div>
+                            <div class="contact-benefit">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Immediate threat protection</span>
+                            </div>
+                            <div class="contact-benefit">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                                <span>Enterprise-grade support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Work Email</label>
+                                <input type="email" id="email" name="email" required placeholder="john@company.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company" required placeholder="Acme Corp">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="role">Role</label>
+                                <select id="role" name="role" required>
+                                    <option value="">Select your role</option>
+                                    <option value="ciso">CISO / Security Leader</option>
+                                    <option value="engineering">Engineering Leader</option>
+                                    <option value="product">Product Leader</option>
+                                    <option value="executive">Executive / C-Suite</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message (Optional)</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell us about your AI security needs..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+                                <span>Book a Demo</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                            <path d="M16 2L4 8v8c0 7.732 5.373 14.986 12 16.729C22.627 30.986 28 23.732 28 16V8l-12-6z" fill="currentColor"/>
+                            <path d="M12 16l3 3 6-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="logo-text">Fabrisk</span>
+                    </div>
+                    <p class="footer-tagline">Enterprise AI Attack Surface Management</p>
+                </div>
+
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#platform">Platform</a></li>
+                            <li><a href="#why-fabrisk">Why Fabrisk</a></li>
+                            <li><a href="#frameworks">Integrations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#overview">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fabrisk. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
